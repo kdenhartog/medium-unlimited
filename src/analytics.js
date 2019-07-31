@@ -30,5 +30,5 @@ function _createClient(user_id) {
 }
 
 export function track(event_type) {
-  _getAmplitudeClient().then(client => client.track({event_type}));
+  //removed Analytics tracker
 }
